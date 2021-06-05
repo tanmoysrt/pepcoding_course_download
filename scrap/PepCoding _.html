@@ -1,0 +1,2944 @@
+<!DOCTYPE html>
+<!-- saved from url=(0102)https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/85 -->
+<html dir="ltr" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style class="vjs-styles-defaults">
+      .video-js {
+        width: 300px;
+        height: 150px;
+      }
+
+      .vjs-fluid {
+        padding-top: 56.25%
+      }
+    </style>
+      <meta name="google-site-verification" content="p2kNyH1NDKhkZLl2aBdmmvosWqHZOxD0rmvS1n8LcDA">
+      <meta name="google-signin-client_id" content="458958442206-nstdi8m8r1ru8qbfd9qmpmhllq5gbui7.apps.googleusercontent.com">
+      
+      
+      
+      <title>PepCoding | </title>
+      <link rel="shortcut icon" href="https://classroom.pepcoding.com/images/favicon.ico">
+      <link rel="apple-touch-icon-precomposed" href="https://classroom.pepcoding.com/images/apple-touch-icon.png">
+      <meta property="og:url" content="">
+      <meta property="title" content="PepCoding | ">
+      <meta property="og:title" content="PepCoding | ">
+      <meta property="keywords" content="">
+      <meta property="og:image" content="https://www.pepcoding.com/images/logo.png">
+      <meta property="og:alt" content="pepcoding">
+      <meta property="og:type" content="website">
+      <meta name="description" content="">
+      <meta property="og:description" content="">
+      <script src="./PepCoding __files/twk-main.js.download" charset="UTF-8" crossorigin="*"></script><script src="./PepCoding __files/twk-vendor.js.download" charset="UTF-8" crossorigin="*"></script><script src="./PepCoding __files/twk-chunk-vendors.js.download" charset="UTF-8" crossorigin="*"></script><script src="./PepCoding __files/twk-chunk-common.js.download" charset="UTF-8" crossorigin="*"></script><script src="./PepCoding __files/twk-runtime.js.download" charset="UTF-8" crossorigin="*"></script><script src="./PepCoding __files/twk-app.js.download" charset="UTF-8" crossorigin="*"></script><script type="text/javascript" async="" src="./PepCoding __files/atrk.js.download"></script><script async="" src="./PepCoding __files/default" charset="UTF-8" crossorigin="*"></script><script type="application/ld+json">
+         {
+           "@context" : "http://schema.org",
+           "@type": "EducationalOrganization",
+           "name" : "Pepcoding",
+           "url" : "https://www.pepcoding.com",
+           "logo":"https://www.pepcoding.com/images/logo.png",
+           "description": "Free online videos of Data Structure using Java and C++. Best coding institute in Delhi, Best computer programming institute in Delhi, Best java training classes, Coding classes in Delhi, Coding courses in Delhi, best computer programming institute in Delhi-NCR, Delhi's best programming institute offers courses in Java, C++, Web Development, Nodejs.",
+          "sameAs" : [
+            "https://www.facebook.com/pepcoding/",
+            "https://www.youtube.com/results?search_query=pepcoding",
+            "https://www.instagram.com/pepcoding/",
+            "https://in.linkedin.com/company/pepcoding-education",
+            "https://twitter.com/pepcoding"
+            ],
+         
+          "openingHours": "Mo 08:30-21:30 Tu, We 08:00-21:30 Th, Fr, Sa, Su 08:00-09:30",
+           "contactPoint": {
+             "@type": "ContactPoint",
+             "telephone": "011-40194461",
+             "contactType": "Reception desk"
+           },
+          "address": {
+             "@type": "PostalAddress",
+             "streetAddress": "PepCoding, 3rd Floor, 15 Vaishali, Pitampura Opposite",
+             "addressLocality": "Pitampura",
+             "addressRegion": "Delhi",
+             "postalCode": "110034",
+             "addressCountry": "India"
+           },
+            "hasMap": "https://www.google.com/maps/place/PepCoding.com/@28.699367,77.138281,17z/data=!4m5!3m4!1s0x0:0x4fd0fdfc3f27ffaf!8m2!3d28.6993666!4d77.1382814?hl=en-US"
+         }
+      </script>
+      <link rel="stylesheet" href="./PepCoding __files/site.css">
+      <link rel="stylesheet" href="./PepCoding __files/video.css">
+      
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="./PepCoding __files/css" rel="stylesheet">
+      <link href="./PepCoding __files/font-awesome.min.css" rel="stylesheet">
+   <style id="ace_editor.css">.ace_editor {position: relative;overflow: hidden;font: 12px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;direction: ltr;text-align: left;}.ace_scroller {position: absolute;overflow: hidden;top: 0;bottom: 0;background-color: inherit;-ms-user-select: none;-moz-user-select: none;-webkit-user-select: none;user-select: none;cursor: text;}.ace_content {position: absolute;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;min-width: 100%;}.ace_dragging .ace_scroller:before{position: absolute;top: 0;left: 0;right: 0;bottom: 0;content: '';background: rgba(250, 250, 250, 0.01);z-index: 1000;}.ace_dragging.ace_dark .ace_scroller:before{background: rgba(0, 0, 0, 0.01);}.ace_selecting, .ace_selecting * {cursor: text !important;}.ace_gutter {position: absolute;overflow : hidden;width: auto;top: 0;bottom: 0;left: 0;cursor: default;z-index: 4;-ms-user-select: none;-moz-user-select: none;-webkit-user-select: none;user-select: none;}.ace_gutter-active-line {position: absolute;left: 0;right: 0;}.ace_scroller.ace_scroll-left {box-shadow: 17px 0 16px -16px rgba(0, 0, 0, 0.4) inset;}.ace_gutter-cell {padding-left: 19px;padding-right: 6px;background-repeat: no-repeat;}.ace_gutter-cell.ace_error {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABOFBMVEX/////////QRswFAb/Ui4wFAYwFAYwFAaWGAfDRymzOSH/PxswFAb/SiUwFAYwFAbUPRvjQiDllog5HhHdRybsTi3/Tyv9Tir+Syj/UC3////XurebMBIwFAb/RSHbPx/gUzfdwL3kzMivKBAwFAbbvbnhPx66NhowFAYwFAaZJg8wFAaxKBDZurf/RB6mMxb/SCMwFAYwFAbxQB3+RB4wFAb/Qhy4Oh+4QifbNRcwFAYwFAYwFAb/QRzdNhgwFAYwFAbav7v/Uy7oaE68MBK5LxLewr/r2NXewLswFAaxJw4wFAbkPRy2PyYwFAaxKhLm1tMwFAazPiQwFAaUGAb/QBrfOx3bvrv/VC/maE4wFAbRPBq6MRO8Qynew8Dp2tjfwb0wFAbx6eju5+by6uns4uH9/f36+vr/GkHjAAAAYnRSTlMAGt+64rnWu/bo8eAA4InH3+DwoN7j4eLi4xP99Nfg4+b+/u9B/eDs1MD1mO7+4PHg2MXa347g7vDizMLN4eG+Pv7i5evs/v79yu7S3/DV7/498Yv24eH+4ufQ3Ozu/v7+y13sRqwAAADLSURBVHjaZc/XDsFgGIBhtDrshlitmk2IrbHFqL2pvXf/+78DPokj7+Fz9qpU/9UXJIlhmPaTaQ6QPaz0mm+5gwkgovcV6GZzd5JtCQwgsxoHOvJO15kleRLAnMgHFIESUEPmawB9ngmelTtipwwfASilxOLyiV5UVUyVAfbG0cCPHig+GBkzAENHS0AstVF6bacZIOzgLmxsHbt2OecNgJC83JERmePUYq8ARGkJx6XtFsdddBQgZE2nPR6CICZhawjA4Fb/chv+399kfR+MMMDGOQAAAABJRU5ErkJggg==");background-repeat: no-repeat;background-position: 2px center;}.ace_gutter-cell.ace_warning {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAmVBMVEX///8AAAD///8AAAAAAABPSzb/5sAAAAB/blH/73z/ulkAAAAAAAD85pkAAAAAAAACAgP/vGz/rkDerGbGrV7/pkQICAf////e0IsAAAD/oED/qTvhrnUAAAD/yHD/njcAAADuv2r/nz//oTj/p064oGf/zHAAAAA9Nir/tFIAAAD/tlTiuWf/tkIAAACynXEAAAAAAAAtIRW7zBpBAAAAM3RSTlMAABR1m7RXO8Ln31Z36zT+neXe5OzooRDfn+TZ4p3h2hTf4t3k3ucyrN1K5+Xaks52Sfs9CXgrAAAAjklEQVR42o3PbQ+CIBQFYEwboPhSYgoYunIqqLn6/z8uYdH8Vmdnu9vz4WwXgN/xTPRD2+sgOcZjsge/whXZgUaYYvT8QnuJaUrjrHUQreGczuEafQCO/SJTufTbroWsPgsllVhq3wJEk2jUSzX3CUEDJC84707djRc5MTAQxoLgupWRwW6UB5fS++NV8AbOZgnsC7BpEAAAAABJRU5ErkJggg==");background-position: 2px center;}.ace_gutter-cell.ace_info {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAAAAAA6mKC9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAJ0Uk5TAAB2k804AAAAPklEQVQY02NgIB68QuO3tiLznjAwpKTgNyDbMegwisCHZUETUZV0ZqOquBpXj2rtnpSJT1AEnnRmL2OgGgAAIKkRQap2htgAAAAASUVORK5CYII=");background-position: 2px center;}.ace_dark .ace_gutter-cell.ace_info {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAJFBMVEUAAAChoaGAgIAqKiq+vr6tra1ZWVmUlJSbm5s8PDxubm56enrdgzg3AAAAAXRSTlMAQObYZgAAAClJREFUeNpjYMAPdsMYHegyJZFQBlsUlMFVCWUYKkAZMxZAGdxlDMQBAG+TBP4B6RyJAAAAAElFTkSuQmCC");}.ace_scrollbar {position: absolute;right: 0;bottom: 0;z-index: 6;}.ace_scrollbar-inner {position: absolute;cursor: text;left: 0;top: 0;}.ace_scrollbar-v{overflow-x: hidden;overflow-y: scroll;top: 0;}.ace_scrollbar-h {overflow-x: scroll;overflow-y: hidden;left: 0;}.ace_print-margin {position: absolute;height: 100%;}.ace_text-input {position: absolute;z-index: 0;width: 0.5em;height: 1em;opacity: 0;background: transparent;-moz-appearance: none;appearance: none;border: none;resize: none;outline: none;overflow: hidden;font: inherit;padding: 0 1px;margin: 0 -1px;text-indent: -1em;-ms-user-select: text;-moz-user-select: text;-webkit-user-select: text;user-select: text;white-space: pre!important;}.ace_text-input.ace_composition {background: inherit;color: inherit;z-index: 1000;opacity: 1;text-indent: 0;}.ace_layer {z-index: 1;position: absolute;overflow: hidden;word-wrap: normal;white-space: pre;height: 100%;width: 100%;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;pointer-events: none;}.ace_gutter-layer {position: relative;width: auto;text-align: right;pointer-events: auto;}.ace_text-layer {font: inherit !important;}.ace_cjk {display: inline-block;text-align: center;}.ace_cursor-layer {z-index: 4;}.ace_cursor {z-index: 4;position: absolute;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;border-left: 2px solid;transform: translatez(0);}.ace_slim-cursors .ace_cursor {border-left-width: 1px;}.ace_overwrite-cursors .ace_cursor {border-left-width: 0;border-bottom: 1px solid;}.ace_hidden-cursors .ace_cursor {opacity: 0.2;}.ace_smooth-blinking .ace_cursor {-webkit-transition: opacity 0.18s;transition: opacity 0.18s;}.ace_editor.ace_multiselect .ace_cursor {border-left-width: 1px;}.ace_marker-layer .ace_step, .ace_marker-layer .ace_stack {position: absolute;z-index: 3;}.ace_marker-layer .ace_selection {position: absolute;z-index: 5;}.ace_marker-layer .ace_bracket {position: absolute;z-index: 6;}.ace_marker-layer .ace_active-line {position: absolute;z-index: 2;}.ace_marker-layer .ace_selected-word {position: absolute;z-index: 4;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}.ace_line .ace_fold {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;display: inline-block;height: 11px;margin-top: -2px;vertical-align: middle;background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSokD8GmjwY1wasKljQpYACtpCFeADcHVQfQyMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErIH0VqkabiGCAqwUadAzZJRxQr/0gwiXIal8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqNrA4WO4zY0glyNKLT2KIfIMAAQsdgGiXvgnYAAAAASUVORK5CYII="),url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACJJREFUeNpi+P//fxgTAwPDBxDxD078RSX+YeEyDFMCIMAAI3INmXiwf2YAAAAASUVORK5CYII=");background-repeat: no-repeat, repeat-x;background-position: center center, top left;color: transparent;border: 1px solid black;border-radius: 2px;cursor: pointer;pointer-events: auto;}.ace_dark .ace_fold {}.ace_fold:hover{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAJCAYAAADU6McMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAJpJREFUeNpi/P//PwOlgAXGYGRklAVSokD8GmjwY1wasKljQpYACtpCFeADcHVQfQyMQAwzwAZI3wJKvCLkfKBaMSClBlR7BOQikCFGQEErIH0VqkabiGCAqwUadAzZJRxQr/0gwiXIal8zQQPnNVTgJ1TdawL0T5gBIP1MUJNhBv2HKoQHHjqNrA4WO4zY0glyNKLT2KIfIMAAQsdgGiXvgnYAAAAASUVORK5CYII="),url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA3CAYAAADNNiA5AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACBJREFUeNpi+P//fz4TAwPDZxDxD5X4i5fLMEwJgAADAEPVDbjNw87ZAAAAAElFTkSuQmCC");}.ace_tooltip {background-color: #FFF;background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.1));background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1));border: 1px solid gray;border-radius: 1px;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);color: black;max-width: 100%;padding: 3px 4px;position: fixed;z-index: 999999;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;cursor: default;white-space: pre;word-wrap: break-word;line-height: normal;font-style: normal;font-weight: normal;letter-spacing: normal;pointer-events: none;}.ace_folding-enabled > .ace_gutter-cell {padding-right: 13px;}.ace_fold-widget {-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;margin: 0 -12px 0 1px;display: none;width: 11px;vertical-align: top;background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAANElEQVR42mWKsQ0AMAzC8ixLlrzQjzmBiEjp0A6WwBCSPgKAXoLkqSot7nN3yMwR7pZ32NzpKkVoDBUxKAAAAABJRU5ErkJggg==");background-repeat: no-repeat;background-position: center;border-radius: 3px;border: 1px solid transparent;cursor: pointer;}.ace_folding-enabled .ace_fold-widget {display: inline-block;   }.ace_fold-widget.ace_end {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAANElEQVR42m3HwQkAMAhD0YzsRchFKI7sAikeWkrxwScEB0nh5e7KTPWimZki4tYfVbX+MNl4pyZXejUO1QAAAABJRU5ErkJggg==");}.ace_fold-widget.ace_closed {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAGCAYAAAAG5SQMAAAAOUlEQVR42jXKwQkAMAgDwKwqKD4EwQ26sSOkVWjgIIHAzPiCgaqiqnJHZnKICBERHN194O5b9vbLuAVRL+l0YWnZAAAAAElFTkSuQmCCXA==");}.ace_fold-widget:hover {border: 1px solid rgba(0, 0, 0, 0.3);background-color: rgba(255, 255, 255, 0.2);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);}.ace_fold-widget:active {border: 1px solid rgba(0, 0, 0, 0.4);background-color: rgba(0, 0, 0, 0.05);box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);}.ace_dark .ace_fold-widget {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHklEQVQIW2P4//8/AzoGEQ7oGCaLLAhWiSwB146BAQCSTPYocqT0AAAAAElFTkSuQmCC");}.ace_dark .ace_fold-widget.ace_end {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAH0lEQVQIW2P4//8/AxQ7wNjIAjDMgC4AxjCVKBirIAAF0kz2rlhxpAAAAABJRU5ErkJggg==");}.ace_dark .ace_fold-widget.ace_closed {background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAFCAYAAACAcVaiAAAAHElEQVQIW2P4//+/AxAzgDADlOOAznHAKgPWAwARji8UIDTfQQAAAABJRU5ErkJggg==");}.ace_dark .ace_fold-widget:hover {box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);background-color: rgba(255, 255, 255, 0.1);}.ace_dark .ace_fold-widget:active {box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);}.ace_fold-widget.ace_invalid {background-color: #FFB4B4;border-color: #DE5555;}.ace_fade-fold-widgets .ace_fold-widget {-webkit-transition: opacity 0.4s ease 0.05s;transition: opacity 0.4s ease 0.05s;opacity: 0;}.ace_fade-fold-widgets:hover .ace_fold-widget {-webkit-transition: opacity 0.05s ease 0.05s;transition: opacity 0.05s ease 0.05s;opacity:1;}.ace_underline {text-decoration: underline;}.ace_bold {font-weight: bold;}.ace_nobold .ace_bold {font-weight: normal;}.ace_italic {font-style: italic;}.ace_error-marker {background-color: rgba(255, 0, 0,0.2);position: absolute;z-index: 9;}.ace_highlight-marker {background-color: rgba(255, 255, 0,0.2);position: absolute;z-index: 8;}.ace_br1 {border-top-left-radius    : 3px;}.ace_br2 {border-top-right-radius   : 3px;}.ace_br3 {border-top-left-radius    : 3px; border-top-right-radius:    3px;}.ace_br4 {border-bottom-right-radius: 3px;}.ace_br5 {border-top-left-radius    : 3px; border-bottom-right-radius: 3px;}.ace_br6 {border-top-right-radius   : 3px; border-bottom-right-radius: 3px;}.ace_br7 {border-top-left-radius    : 3px; border-top-right-radius:    3px; border-bottom-right-radius: 3px;}.ace_br8 {border-bottom-left-radius : 3px;}.ace_br9 {border-top-left-radius    : 3px; border-bottom-left-radius:  3px;}.ace_br10{border-top-right-radius   : 3px; border-bottom-left-radius:  3px;}.ace_br11{border-top-left-radius    : 3px; border-top-right-radius:    3px; border-bottom-left-radius:  3px;}.ace_br12{border-bottom-right-radius: 3px; border-bottom-left-radius:  3px;}.ace_br13{border-top-left-radius    : 3px; border-bottom-right-radius: 3px; border-bottom-left-radius:  3px;}.ace_br14{border-top-right-radius   : 3px; border-bottom-right-radius: 3px; border-bottom-left-radius:  3px;}.ace_br15{border-top-left-radius    : 3px; border-top-right-radius:    3px; border-bottom-right-radius: 3px; border-bottom-left-radius: 3px;}
+/*# sourceURL=ace/css/ace_editor.css */</style><style id="ace-tm">.ace-tm .ace_gutter {background: #f0f0f0;color: #333;}.ace-tm .ace_print-margin {width: 1px;background: #e8e8e8;}.ace-tm .ace_fold {background-color: #6B72E6;}.ace-tm {background-color: #FFFFFF;color: black;}.ace-tm .ace_cursor {color: black;}.ace-tm .ace_invisible {color: rgb(191, 191, 191);}.ace-tm .ace_storage,.ace-tm .ace_keyword {color: blue;}.ace-tm .ace_constant {color: rgb(197, 6, 11);}.ace-tm .ace_constant.ace_buildin {color: rgb(88, 72, 246);}.ace-tm .ace_constant.ace_language {color: rgb(88, 92, 246);}.ace-tm .ace_constant.ace_library {color: rgb(6, 150, 14);}.ace-tm .ace_invalid {background-color: rgba(255, 0, 0, 0.1);color: red;}.ace-tm .ace_support.ace_function {color: rgb(60, 76, 114);}.ace-tm .ace_support.ace_constant {color: rgb(6, 150, 14);}.ace-tm .ace_support.ace_type,.ace-tm .ace_support.ace_class {color: rgb(109, 121, 222);}.ace-tm .ace_keyword.ace_operator {color: rgb(104, 118, 135);}.ace-tm .ace_string {color: rgb(3, 106, 7);}.ace-tm .ace_comment {color: rgb(76, 136, 107);}.ace-tm .ace_comment.ace_doc {color: rgb(0, 102, 255);}.ace-tm .ace_comment.ace_doc.ace_tag {color: rgb(128, 159, 191);}.ace-tm .ace_constant.ace_numeric {color: rgb(0, 0, 205);}.ace-tm .ace_variable {color: rgb(49, 132, 149);}.ace-tm .ace_xml-pe {color: rgb(104, 104, 91);}.ace-tm .ace_entity.ace_name.ace_function {color: #0000A2;}.ace-tm .ace_heading {color: rgb(12, 7, 255);}.ace-tm .ace_list {color:rgb(185, 6, 144);}.ace-tm .ace_meta.ace_tag {color:rgb(0, 22, 142);}.ace-tm .ace_string.ace_regex {color: rgb(255, 0, 0)}.ace-tm .ace_marker-layer .ace_selection {background: rgb(181, 213, 255);}.ace-tm.ace_multiselect .ace_selection.ace_start {box-shadow: 0 0 3px 0px white;}.ace-tm .ace_marker-layer .ace_step {background: rgb(252, 255, 0);}.ace-tm .ace_marker-layer .ace_stack {background: rgb(164, 229, 101);}.ace-tm .ace_marker-layer .ace_bracket {margin: -1px 0 0 -1px;border: 1px solid rgb(192, 192, 192);}.ace-tm .ace_marker-layer .ace_active-line {background: rgba(0, 0, 0, 0.07);}.ace-tm .ace_gutter-active-line {background-color : #dcdcdc;}.ace-tm .ace_marker-layer .ace_selected-word {background: rgb(250, 250, 255);border: 1px solid rgb(200, 200, 250);}.ace-tm .ace_indent-guide {background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAE0lEQVQImWP4////f4bLly//BwAmVgd1/w11/gAAAABJRU5ErkJggg==") right repeat-y;}
+/*# sourceURL=ace/css/ace-tm */</style><style>    .error_widget_wrapper {        background: inherit;        color: inherit;        border:none    }    .error_widget {        border-top: solid 2px;        border-bottom: solid 2px;        margin: 5px 0;        padding: 10px 40px;        white-space: pre-wrap;    }    .error_widget.ace_error, .error_widget_arrow.ace_error{        border-color: #ff5a5a    }    .error_widget.ace_warning, .error_widget_arrow.ace_warning{        border-color: #F1D817    }    .error_widget.ace_info, .error_widget_arrow.ace_info{        border-color: #5a5a5a    }    .error_widget.ace_ok, .error_widget_arrow.ace_ok{        border-color: #5aaa5a    }    .error_widget_arrow {        position: absolute;        border: solid 5px;        border-top-color: transparent!important;        border-right-color: transparent!important;        border-left-color: transparent!important;        top: -5px;    }</style><script charset="utf-8" src="./PepCoding __files/twk-chunk-2d0d2b7c.js.download"></script><script charset="utf-8" src="./PepCoding __files/twk-chunk-2d224aff.js.download"></script><script charset="utf-8" src="./PepCoding __files/twk-chunk-4fe9d5dd.js.download"></script><script charset="utf-8" src="./PepCoding __files/twk-chunk-2d0b9454.js.download"></script><script charset="utf-8" src="./PepCoding __files/twk-chunk-f163fcd0.js.download"></script><script charset="utf-8" src="./PepCoding __files/twk-chunk-35f53b3a.js.download"></script><style type="text/css">#hkingauls8i1f7c0td3c {outline:none !important;
+visibility:visible !important;
+resize:none !important;
+box-shadow:none !important;
+overflow:visible !important;
+background:none !important;
+opacity:1 !important;
+filter:alpha(opacity=100) !important;
+-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important;
+-mz-opacity:1 !important;
+-khtml-opacity:1 !important;
+top:auto !important;
+right:0px !important;
+bottom:0px !important;
+left:auto !important;
+position:fixed !important;
+border:0 !important;
+min-height:0px  !important;
+min-width:0px  !important;
+max-height:none  !important;
+max-width:none  !important;
+padding:0px !important;
+margin:0px !important;
+-moz-transition-property:none !important;
+-webkit-transition-property:none !important;
+-o-transition-property:none !important;
+transition-property:none !important;
+transform:none !important;
+-webkit-transform:none !important;
+-ms-transform:none !important;
+width:auto !important;
+height:auto  !important;
+display:block !important;
+z-index:2000000000 !important;
+background-color:transparent !important;
+cursor:none !important;
+float:none !important;
+border-radius:unset !important;
+pointer-events:auto !important;}</style><style type="text/css">@keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-moz-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}@-webkit-keyframes tawkMaxOpen{0%{opacity:0;transform:translate(0, 30px);;}to{opacity:1;transform:translate(0, 0px);}}#x415f940cu71f7c0td6v.open{animation : tawkMaxOpen .25s ease!important;}@keyframes tawkMaxClose{from{opacity: 1;transform:translate(0, 0px);;}to{opacity: 0;transform:translate(0, 30px);;}}@-moz-keyframes tawkMaxClose{from{opacity: 1;transform:translate(0, 0px);;}to{opacity: 0;transform:translate(0, 30px);;}}@-webkit-keyframes tawkMaxClose{from{opacity: 1;transform:translate(0, 0px);;}to{opacity: 0;transform:translate(0, 30px);;}}#x415f940cu71f7c0td6v.closed{animation: tawkMaxClose .25s ease!important}</style></head>
+   <body class=" resource theme1" style="">
+      <header>
+         <nav>
+            <div class="nav-wrapper page-scrolled">
+               <div class="container med row  site-nav">
+                  <a href="https://www.pepcoding.com/" class="brand-logo small">
+                  <img class="logo" src="./PepCoding __files/logo.png" alt="logo">
+                  </a>
+                  <div class="hide-on-med-and-down nav-breadcrumb">
+                     <a class="breadcrumb  " data-target="ddls0" href="https://classroom.pepcoding.com/myClassroom/">
+                     home
+                     </a>
+                     <a class="breadcrumb  " data-target="ddls1" href="https://classroom.pepcoding.com/myClassroom/data-structures-and-algorithms-pitampura-dec-10-2020/">
+                     data-structures-and-algorithms-pitampura-dec-10-2020
+                     </a>
+                     <a class="breadcrumb  " data-target="ddls2" href="https://classroom.pepcoding.com/myClassroom/data-structures-and-algorithms-pitampura-dec-10-2020/">
+                     Class Videos
+                     </a>
+                  </div>
+                 
+                                
+                  <a href="https://classroom.pepcoding.com/myClassroom" class="class-mode">My ClassRoom </a>
+                                    
+                  <a class="dropdown-trigger dashboard-burger" href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/85#" data-target="ddlFeatures">
+                   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 384 384">
+              <path d="M0 384v-43h384v43H0zm0-277l85 85l-85 85V107zm171 192v-43h213v43H171zM0 0h384v43H0V0zm171 128V85h213v43H171zm0 85v-42h213v42H171z" fill="currentColor"></path>
+            </svg>
+                  </a><ul id="ddlFeatures" class="dropdown-content" tabindex="0">
+                     <li tabindex="0">
+                        <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/85#" class=" setting sidenav-trigger theme-cutomizer-trigger no-margin" data-target="editor-support-out" id="22029">
+                           <div class="row  col l12 no-padding no-margin" style="height: 100%;display: flex;flex-direction: row;align-items: center;justify-content: flex-end;">
+                              <i class="fa fa-code" aria-hidden="true"></i>
+                              <span class="col l8 s8 m8 lp-dropdown">Editor</span>
+                           </div>
+                        </a>
+                     </li>
+                  </ul>
+
+                            <div class="changeTheme">
+                                        <i class="fa fa-sun-o  dropdown-trigger" href="#changeSiteTheme" style="    height: inherit;
+                                           line-height: inherit;"></i><ul id="changeSiteTheme" class="dropdown-content changeSiteTheme" tabindex="0">
+                                       <li tabindex="0">
+                                           <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/85#" onclick="siteThemeSelect(&#39;theme1&#39;)">
+                                              <div class="row   ">
+                                                   <div class="col l1  heart theme1"></div> 
+                                                <div class="col l4">Theme1</div>
+                                              </div>
+                                           </a>
+                                        </li>
+                                        
+                                       <li tabindex="0">
+                                           <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/85#" onclick="siteThemeSelect(&#39;theme2&#39;)">
+                                              <div class="row   ">
+                                                   <div class="col l1  heart theme2"></div> 
+                                                <div class="col l4">Theme2</div>
+                                              </div>
+                                           </a>
+                                        </li>
+                                         <li tabindex="0">
+                                           <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/85#" onclick="siteThemeSelect(&#39;theme3&#39;)">
+                                              <div class="row   ">
+                                                   <div class="col l1  heart theme3"></div> 
+                                                <div class="col l4">Theme3</div>
+                                              </div>
+                                           </a>
+                                        </li>
+                                         <li tabindex="0">
+                                           <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/85#" onclick="siteThemeSelect(&#39;theme4&#39;)">
+                                              <div class="row   ">
+                                                   <div class="col l1  heart theme4"></div> 
+                                                <div class="col l4">Theme4</div>
+                                              </div>
+                                           </a>
+                                        </li>
+                                     </ul>
+                             </div>
+                           
+                  <a class="dropdown-trigger dashboard-user" href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/85#" data-target="ddlUserProfile">
+                  <i class="svg-user svg-header"></i>
+                  </a><ul id="ddlUserProfile" class="dropdown-content" tabindex="0" style="">
+                    <li tabindex="0">
+                      <a href="https://classroom.pepcoding.com/profile" class="setting">
+                        <div class="row  col l12" style="height: 100%;padding: 0px;margin: 0px;display: flex;flex-direction: row;align-items: center;justify-content: flex-end;">
+                          <i class="col l4 s2 m2 svg-user svg-header"></i>
+                          <span class="col l8 s8 m8 lp-dropdown">Profile</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li tabindex="0">
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/85#" class="setting" onclick="PEP.Utilities.signOut();">
+                          <div class="row  col l12" style="height: 100%;padding: 0px;margin: 0px;display: flex;flex-direction: row;align-items: center;justify-content: flex-end;">
+                            <i class="col l4 s2 m2 svg-logout svg-header"></i>
+                          <span class="col l8 s8 m8 lp-dropdown">Logout</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <main>
+         <div id="siteOverlay" class="loader-overlay hide">
+         </div>
+         <div id="siteLoader" class="loader hide">
+            <div class="preloader-wrapper active">
+               <div class="spinner-layer spinner-red-only">
+                  <div class="circle-clipper left">
+                     <div class="circle"></div>
+                  </div>
+                  <div class="gap-patch">
+                     <div class="circle"></div>
+                  </div>
+                  <div class="circle-clipper right">
+                     <div class="circle"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <input type="hidden" id="isShowDoubtSupport" value="">
+         <input type="hidden" id="tawkKey" value="5e1ef6557e39ea1242a4b602">
+         <div class="container full  ">
+
+
+    <div class="section full no-padding">
+        <div class="row" style="display: flex; flex-flow: column;">
+
+            <div id="side-open-nav" class="sidenav sidenav-fixed sidenav-res search-nav row  open  " style="margin-top: 40px; transform: translateX(0px);">
+            
+              <div class="col l1 s1 m1 no-padding">
+            
+                <span class="sidenav-icon open">
+            
+            
+                  <div id="toggleResourceNav" class=" mobile-nav menu-ico ">
+                    <span class="side-nav"></span>
+                    <span class="side-nav"></span>
+                    <span class="side-nav"></span>
+                  </div>
+            
+                </span>
+            
+                <span class="hide " style="margin-top:200px; position: absolute;">
+            
+                  <div id="resourceNotice " class="resource-notice">
+            
+                    <i class="fa fa-flag-o " aria-hidden="true"></i>
+                  </div>
+            
+                </span>
+            
+              </div>
+            
+              <div class="col l11 s11 m11 ">
+                <ul class="row col l12 s12 m12  no-padding" style="    height: 8vh;">
+            
+                  <li class="search-container">
+                    <i class="search-icon fa fa-search"></i>
+                    <input id="searchBox" type="text" placeholder=" search" class=" row col l9 s9 autocomplete search searchBox">
+            
+                  </li>
+            
+                </ul>
+            
+            
+                <ul class="row col l12 s12 m12  no-padding" style="    height: 92vh;
+                overflow-y: scroll;">
+            
+            
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2619">
+            
+                      
+            
+            
+            
+                      <span title="Apr 04 HashMap &amp; Heap : Creation" class="bold  ">
+            
+            
+            
+            
+                        Apr 04 HashMap &amp; Heap : Creation
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2593">
+            
+                      
+            
+            
+            
+                      <span title="Apr 03 HashMap &amp; Heap - 1" class="bold  ">
+            
+            
+            
+            
+                        Apr 03 HashMap &amp; Heap - 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2582">
+            
+                      
+            
+            
+            
+                      <span title="Apr 02 HashMap &amp; Heap - Intro" class="bold  ">
+            
+            
+            
+            
+                        Apr 02 HashMap &amp; Heap - Intro
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2575">
+            
+                      
+            
+            
+            
+                      <span title="Apr 01 Graph - 2" class="bold  ">
+            
+            
+            
+            
+                        Apr 01 Graph - 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2541">
+            
+                      
+            
+            
+            
+                      <span title="Mar 27 Graph - 1" class="bold  ">
+            
+            
+            
+            
+                        Mar 27 Graph - 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2532">
+            
+                      
+            
+            
+            
+                      <span title="Mar 26 Graph - Intro" class="bold  ">
+            
+            
+            
+            
+                        Mar 26 Graph - Intro
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2524">
+            
+                      
+            
+            
+            
+                      <span title="Mar 25 BST" class="bold  ">
+            
+            
+            
+            
+                        Mar 25 BST
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2472">
+            
+                      
+            
+            
+            
+                      <span title="Mar 21 Binary Tree - 2" class="bold  ">
+            
+            
+            
+            
+                        Mar 21 Binary Tree - 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2449">
+            
+                      
+            
+            
+            
+                      <span title="Mar 20 Binary Tree - 1" class="bold  ">
+            
+            
+            
+            
+                        Mar 20 Binary Tree - 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2432">
+            
+                      
+            
+            
+            
+                      <span title="Mar 18 Binary Tree - Intro" class="bold  ">
+            
+            
+            
+            
+                        Mar 18 Binary Tree - Intro
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2400">
+            
+                      
+            
+            
+            
+                      <span title="Mar 14 Generic Tree - Final" class="bold  ">
+            
+            
+            
+            
+                        Mar 14 Generic Tree - Final
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2387">
+            
+                      
+            
+            
+            
+                      <span title="Mar 13 Generic Tree - 4" class="bold  ">
+            
+            
+            
+            
+                        Mar 13 Generic Tree - 4
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2353">
+            
+                      
+            
+            
+            
+                      <span title="Mar 11 Generic Tree - 3" class="bold  ">
+            
+            
+            
+            
+                        Mar 11 Generic Tree - 3
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2313">
+            
+                      
+            
+            
+            
+                      <span title="Mar 07 Generic Tree - 2" class="bold  ">
+            
+            
+            
+            
+                        Mar 07 Generic Tree - 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2292">
+            
+                      
+            
+            
+            
+                      <span title="Mar 06 Linked list Part 4" class="bold  ">
+            
+            
+            
+            
+                        Mar 06 Linked list Part 4
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2274">
+            
+                      
+            
+            
+            
+                      <span title="Mar 04 Linked Lists - 3" class="bold  ">
+            
+            
+            
+            
+                        Mar 04 Linked Lists - 3
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2243">
+            
+                      
+            
+            
+            
+                      <span title="Feb 28 Linked List - 2" class="bold  ">
+            
+            
+            
+            
+                        Feb 28 Linked List - 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2229">
+            
+                      
+            
+            
+            
+                      <span title="Feb 27 Linked List" class="bold  ">
+            
+            
+            
+            
+                        Feb 27 Linked List
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2208">
+            
+                      
+            
+            
+            
+                      <span title="Feb 25 Stacks &amp; Queues - Final" class="bold  ">
+            
+            
+            
+            
+                        Feb 25 Stacks &amp; Queues - Final
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2151">
+            
+                      
+            
+            
+            
+                      <span title="Feb 21 Stacks &amp; Queues - 4" class="bold  ">
+            
+            
+            
+            
+                        Feb 21 Stacks &amp; Queues - 4
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2140">
+            
+                      
+            
+            
+            
+                      <span title="Feb 20 OOPs" class="bold  ">
+            
+            
+            
+            
+                        Feb 20 OOPs
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2201">
+            
+                      
+            
+            
+            
+                      <span title="Feb 18 Stacks &amp; Queues - 2" class="bold  ">
+            
+            
+            
+            
+                        Feb 18 Stacks &amp; Queues - 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2070">
+            
+                      
+            
+            
+            
+                      <span title="Feb 11 Stacks &amp; Queues - 1" class="bold  ">
+            
+            
+            
+            
+                        Feb 11 Stacks &amp; Queues - 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/2200">
+            
+                      
+            
+            
+            
+                      <span title="Feb 11 Stacks &amp; Queues" class="bold  ">
+            
+            
+            
+            
+                        Feb 11 Stacks &amp; Queues
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1954">
+            
+                      
+            
+            
+            
+                      <span title="Feb 07 Stacks &amp; Queues" class="bold  ">
+            
+            
+            
+            
+                        Feb 07 Stacks &amp; Queues
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1950">
+            
+                      
+            
+            
+            
+                      <span title="Feb 06 DP-Final" class="bold  ">
+            
+            
+            
+            
+                        Feb 06 DP-Final
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1901">
+            
+                      
+            
+            
+            
+                      <span title="Feb 04 DP-Buy &amp; Sell stock" class="bold  ">
+            
+            
+            
+            
+                        Feb 04 DP-Buy &amp; Sell stock
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1873">
+            
+                      
+            
+            
+            
+                      <span title="Jan 31 DP Part 1 " class="bold  ">
+            
+            
+            
+            
+                        Jan 31 DP Part 1 
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1874">
+            
+                      
+            
+            
+            
+                      <span title="Jan 31 DP Part 2" class="bold  ">
+            
+            
+            
+            
+                        Jan 31 DP Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1875">
+            
+                      
+            
+            
+            
+                      <span title="Jan 31 DP Part 3" class="bold  ">
+            
+            
+            
+            
+                        Jan 31 DP Part 3
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1876">
+            
+                      
+            
+            
+            
+                      <span title="Jan 31 DP Part 4" class="bold  ">
+            
+            
+            
+            
+                        Jan 31 DP Part 4
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1867">
+            
+                      
+            
+            
+            
+                      <span title="Jan 30 DP Part 1 " class="bold  ">
+            
+            
+            
+            
+                        Jan 30 DP Part 1 
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1868">
+            
+                      
+            
+            
+            
+                      <span title="Jan 30 DP Part 2" class="bold  ">
+            
+            
+            
+            
+                        Jan 30 DP Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1869">
+            
+                      
+            
+            
+            
+                      <span title="Jan 30 DP Part 3" class="bold  ">
+            
+            
+            
+            
+                        Jan 30 DP Part 3
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1870">
+            
+                      
+            
+            
+            
+                      <span title="Jan 30 DP Part 4" class="bold  ">
+            
+            
+            
+            
+                        Jan 30 DP Part 4
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1871">
+            
+                      
+            
+            
+            
+                      <span title="Jan 30 DP Part 5" class="bold  ">
+            
+            
+            
+            
+                        Jan 30 DP Part 5
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1872">
+            
+                      
+            
+            
+            
+                      <span title="Jan 30 DP Part 6" class="bold  ">
+            
+            
+            
+            
+                        Jan 30 DP Part 6
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1729">
+            
+                      
+            
+            
+            
+                      <span title="Jan 28 DP Part 1 " class="bold  ">
+            
+            
+            
+            
+                        Jan 28 DP Part 1 
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1730">
+            
+                      
+            
+            
+            
+                      <span title="Jan 28 DP Part 2" class="bold  ">
+            
+            
+            
+            
+                        Jan 28 DP Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1731">
+            
+                      
+            
+            
+            
+                      <span title="Jan 28 DP Part 3" class="bold  ">
+            
+            
+            
+            
+                        Jan 28 DP Part 3
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1732">
+            
+                      
+            
+            
+            
+                      <span title="Jan 28 DP Part 4" class="bold  ">
+            
+            
+            
+            
+                        Jan 28 DP Part 4
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1733">
+            
+                      
+            
+            
+            
+                      <span title="Jan 28 DP Part 5" class="bold  ">
+            
+            
+            
+            
+                        Jan 28 DP Part 5
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1610">
+            
+                      
+            
+            
+            
+                      <span title="Jan 24 DP Part 1 " class="bold  ">
+            
+            
+            
+            
+                        Jan 24 DP Part 1 
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1611">
+            
+                      
+            
+            
+            
+                      <span title="Jan 24 DP Part 2" class="bold  ">
+            
+            
+            
+            
+                        Jan 24 DP Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1612">
+            
+                      
+            
+            
+            
+                      <span title="Jan 24 DP Part 3" class="bold  ">
+            
+            
+            
+            
+                        Jan 24 DP Part 3
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1613">
+            
+                      
+            
+            
+            
+                      <span title="Jan 24 DP Part 4" class="bold  ">
+            
+            
+            
+            
+                        Jan 24 DP Part 4
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1614">
+            
+                      
+            
+            
+            
+                      <span title="Jan 24 DP Part 5" class="bold  ">
+            
+            
+            
+            
+                        Jan 24 DP Part 5
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1615">
+            
+                      
+            
+            
+            
+                      <span title="Jan 24 DP Part 6" class="bold  ">
+            
+            
+            
+            
+                        Jan 24 DP Part 6
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1598">
+            
+                      
+            
+            
+            
+                      <span title="Jan 23 DP Part 1 " class="bold  ">
+            
+            
+            
+            
+                        Jan 23 DP Part 1 
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1599">
+            
+                      
+            
+            
+            
+                      <span title="Jan 23 DP Part 2" class="bold  ">
+            
+            
+            
+            
+                        Jan 23 DP Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1600">
+            
+                      
+            
+            
+            
+                      <span title="Jan 23 DP Part 3" class="bold  ">
+            
+            
+            
+            
+                        Jan 23 DP Part 3
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1603">
+            
+                      
+            
+            
+            
+                      <span title="Jan 23 DP Part 4" class="bold  ">
+            
+            
+            
+            
+                        Jan 23 DP Part 4
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1606">
+            
+                      
+            
+            
+            
+                      <span title="Jan 23 DP Part 5" class="bold  ">
+            
+            
+            
+            
+                        Jan 23 DP Part 5
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1607">
+            
+                      
+            
+            
+            
+                      <span title="Jan 23 DP Part 6" class="bold  ">
+            
+            
+            
+            
+                        Jan 23 DP Part 6
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1240">
+            
+                      
+            
+            
+            
+                      <span title="Jan 19 Time and space Part 1" class="bold  ">
+            
+            
+            
+            
+                        Jan 19 Time and space Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1241">
+            
+                      
+            
+            
+            
+                      <span title="Jan 19 Time and space Part 2" class="bold  ">
+            
+            
+            
+            
+                        Jan 19 Time and space Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1242">
+            
+                      
+            
+            
+            
+                      <span title="Jan 19 Time and space Part 3" class="bold  ">
+            
+            
+            
+            
+                        Jan 19 Time and space Part 3
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1243">
+            
+                      
+            
+            
+            
+                      <span title="Jan 19 Time and space Part 4" class="bold  ">
+            
+            
+            
+            
+                        Jan 19 Time and space Part 4
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1244">
+            
+                      
+            
+            
+            
+                      <span title="Jan 19 Time and space Part 5" class="bold  ">
+            
+            
+            
+            
+                        Jan 19 Time and space Part 5
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/1245">
+            
+                      
+            
+            
+            
+                      <span title="Jan 19 Time and space Part 6" class="bold  ">
+            
+            
+            
+            
+                        Jan 19 Time and space Part 6
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/870">
+            
+                      
+            
+            
+            
+                      <span title="Jan 10 Time and space Part 1" class="bold  ">
+            
+            
+            
+            
+                        Jan 10 Time and space Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/871">
+            
+                      
+            
+            
+            
+                      <span title="Jan 10 Time and space Part 2" class="bold  ">
+            
+            
+            
+            
+                        Jan 10 Time and space Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/872">
+            
+                      
+            
+            
+            
+                      <span title="Jan 10 Time and space Part 3" class="bold  ">
+            
+            
+            
+            
+                        Jan 10 Time and space Part 3
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/873">
+            
+                      
+            
+            
+            
+                      <span title="Jan 10 Time and space Part 4" class="bold  ">
+            
+            
+            
+            
+                        Jan 10 Time and space Part 4
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/874">
+            
+                      
+            
+            
+            
+                      <span title="Jan 10 Time and space Part 5" class="bold  ">
+            
+            
+            
+            
+                        Jan 10 Time and space Part 5
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/801">
+            
+                      
+            
+            
+            
+                      <span title="Jan 09 Time and space Part 1" class="bold  ">
+            
+            
+            
+            
+                        Jan 09 Time and space Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/802">
+            
+                      
+            
+            
+            
+                      <span title="Jan 09 Time and space Part 2" class="bold  ">
+            
+            
+            
+            
+                        Jan 09 Time and space Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/803">
+            
+                      
+            
+            
+            
+                      <span title="Jan 09 Time and space Part 3" class="bold  ">
+            
+            
+            
+            
+                        Jan 09 Time and space Part 3
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/804">
+            
+                      
+            
+            
+            
+                      <span title="Jan 09 Time and space Part 4" class="bold  ">
+            
+            
+            
+            
+                        Jan 09 Time and space Part 4
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/719">
+            
+                      
+            
+            
+            
+                      <span title="Jan 05 Time and space Part-1" class="bold  ">
+            
+            
+            
+            
+                        Jan 05 Time and space Part-1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/720">
+            
+                      
+            
+            
+            
+                      <span title="Jan 05 Time and space Part-2" class="bold  ">
+            
+            
+            
+            
+                        Jan 05 Time and space Part-2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/689">
+            
+                      
+            
+            
+            
+                      <span title="Jan 03 Recursion  with backtracking Part 1" class="bold  ">
+            
+            
+            
+            
+                        Jan 03 Recursion  with backtracking Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/690">
+            
+                      
+            
+            
+            
+                      <span title="Jan 03 Recursion  with backtracking Part 2" class="bold  ">
+            
+            
+            
+            
+                        Jan 03 Recursion  with backtracking Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/687">
+            
+                      
+            
+            
+            
+                      <span title="Jan 02 Recursion  with backtracking Part 1 " class="bold  ">
+            
+            
+            
+            
+                        Jan 02 Recursion  with backtracking Part 1 
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/688">
+            
+                      
+            
+            
+            
+                      <span title="Jan 02 Recursion  with backtracking Part 2" class="bold  ">
+            
+            
+            
+            
+                        Jan 02 Recursion  with backtracking Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/583">
+            
+                      
+            
+            
+            
+                      <span title="Dec 29 Recursion on the way up Part 1" class="bold  ">
+            
+            
+            
+            
+                        Dec 29 Recursion on the way up Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/584">
+            
+                      
+            
+            
+            
+                      <span title="Dec 29 Recursion on the way up Part 2" class="bold  ">
+            
+            
+            
+            
+                        Dec 29 Recursion on the way up Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/556">
+            
+                      
+            
+            
+            
+                      <span title="Dec 27 Recursion in Arraylist Part 1 " class="bold  ">
+            
+            
+            
+            
+                        Dec 27 Recursion in Arraylist Part 1 
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/558">
+            
+                      
+            
+            
+            
+                      <span title="Dec 27 Recursion in Arraylist Part 2" class="bold  ">
+            
+            
+            
+            
+                        Dec 27 Recursion in Arraylist Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/554">
+            
+                      
+            
+            
+            
+                      <span title="Dec 26 Recursion in arrays  Part 1" class="bold  ">
+            
+            
+            
+            
+                        Dec 26 Recursion in arrays  Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/555">
+            
+                      
+            
+            
+            
+                      <span title="Dec 26 Recursion in arrays  Part 2" class="bold  ">
+            
+            
+            
+            
+                        Dec 26 Recursion in arrays  Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/475">
+            
+                      
+            
+            
+            
+                      <span title="Dec 22 Recursion in motion Part 1" class="bold  ">
+            
+            
+            
+            
+                        Dec 22 Recursion in motion Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/476">
+            
+                      
+            
+            
+            
+                      <span title="Dec 22 Recursion in motion Part 2" class="bold  ">
+            
+            
+            
+            
+                        Dec 22 Recursion in motion Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/445">
+            
+                      
+            
+            
+            
+                      <span title="Dec 20 String Builder and Arraylist Part 1" class="bold  ">
+            
+            
+            
+            
+                        Dec 20 String Builder and Arraylist Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/446">
+            
+                      
+            
+            
+            
+                      <span title="Dec 20 String Builder and Arraylist Part 2" class="bold  ">
+            
+            
+            
+            
+                        Dec 20 String Builder and Arraylist Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/429">
+            
+                      
+            
+            
+            
+                      <span title="Dec 19 String Part 1" class="bold  ">
+            
+            
+            
+            
+                        Dec 19 String Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/430">
+            
+                      
+            
+            
+            
+                      <span title="Dec 19 String Part 2" class="bold  ">
+            
+            
+            
+            
+                        Dec 19 String Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/332">
+            
+                      
+            
+            
+            
+                      <span title="Dec 15 2D Array Part 1" class="bold  ">
+            
+            
+            
+            
+                        Dec 15 2D Array Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/333">
+            
+                      
+            
+            
+            
+                      <span title="Dec 15 2D Array Part 2" class="bold  ">
+            
+            
+            
+            
+                        Dec 15 2D Array Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/274">
+            
+                      
+            
+            
+            
+                      <span title="Dec 13 2D Array Part 1" class="bold  ">
+            
+            
+            
+            
+                        Dec 13 2D Array Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/277">
+            
+                      
+            
+            
+            
+                      <span title="Dec 13 2D Array Part 2" class="bold  ">
+            
+            
+            
+            
+                        Dec 13 2D Array Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/270">
+            
+                      
+            
+            
+            
+                      <span title="Dec 12 2D Array Part 1" class="bold  ">
+            
+            
+            
+            
+                        Dec 12 2D Array Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/271">
+            
+                      
+            
+            
+            
+                      <span title="Dec 12 2D Array Part 2" class="bold  ">
+            
+            
+            
+            
+                        Dec 12 2D Array Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/185">
+            
+                      
+            
+            
+            
+                      <span title="Dec 08 Function And Arrays Part 1" class="bold  ">
+            
+            
+            
+            
+                        Dec 08 Function And Arrays Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/186">
+            
+                      
+            
+            
+            
+                      <span title="Dec 08 Function And Arrays Part 2" class="bold  ">
+            
+            
+            
+            
+                        Dec 08 Function And Arrays Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/184">
+            
+                      
+            
+            
+            
+                      <span title="Dec 06 Function And Arrays Part 2" class="bold  ">
+            
+            
+            
+            
+                        Dec 06 Function And Arrays Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/148">
+            
+                      
+            
+            
+            
+                      <span title="Dec 05 Function And Arrays Part 1" class="bold  ">
+            
+            
+            
+            
+                        Dec 05 Function And Arrays Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/149">
+            
+                      
+            
+            
+            
+                      <span title="Dec 05 Function And Arrays Part 2" class="bold  ">
+            
+            
+            
+            
+                        Dec 05 Function And Arrays Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/114">
+            
+                      
+            
+            
+            
+                      <span title="Dec 03 Generic Tree-1 Part 1" class="bold  ">
+            
+            
+            
+            
+                        Dec 03 Generic Tree-1 Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/115">
+            
+                      
+            
+            
+            
+                      <span title="Dec 03 Generic Tree-1 Part 2" class="bold  ">
+            
+            
+            
+            
+                        Dec 03 Generic Tree-1 Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/146">
+            
+                      
+            
+            
+            
+                      <span title="Dec 01 Patterns Final Part 1" class="bold  ">
+            
+            
+            
+            
+                        Dec 01 Patterns Final Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/147">
+            
+                      
+            
+            
+            
+                      <span title="Dec 01 Patterns Final Part 2" class="bold  ">
+            
+            
+            
+            
+                        Dec 01 Patterns Final Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/84">
+            
+                      
+            
+            
+            
+                      <span title="Nov 29 Patterns-1 Part 1" class="bold  ">
+            
+            
+            
+            
+                        Nov 29 Patterns-1 Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/85">
+            
+                      
+            
+            
+            
+                      <span title="Nov 29 Patterns-1 Part 2" class="bold  ">
+            
+            
+            
+            
+                        Nov 29 Patterns-1 Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/37">
+            
+                      
+            
+            
+            
+                      <span title="Nov 28 Basics Final &amp; Patterns intro Part 1" class="bold  ">
+            
+            
+            
+            
+                        Nov 28 Basics Final &amp; Patterns intro Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/38">
+            
+                      
+            
+            
+            
+                      <span title="Nov 28 Basics Final &amp; Patterns intro Part 2" class="bold  ">
+            
+            
+            
+            
+                        Nov 28 Basics Final &amp; Patterns intro Part 2
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li class=" searchRow">
+                    
+                    
+                    
+            
+                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/183">
+            
+                      
+            
+            
+            
+                      <span title="Nov 06 Function And Arrays Part 1" class="bold  ">
+            
+            
+            
+            
+                        Nov 06 Function And Arrays Part 1
+                      </span>
+                    </a>
+                  </li>
+            
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            
+            </div>
+
+            <div class="resource-container " style="margin-left: 400px;">
+
+                <div id="resource-card" class="resource-card no-margin">
+                   <div id="resourceContent" style="width:100%">
+                        <form id="payCoinForm" method="post" action="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/85/">
+                            <div class="row">
+                                <div class="col s12 l12">
+                                    <h1 class="center ">This resource will require 10 coins
+                                    </h1>
+                                    <div class="row">
+                                        <input type="hidden" value="10" name="coinsRequired">
+                        
+                        
+                                        <input type="hidden" name="courseId" value="80">
+                                        <input type="hidden" name="videoId" value="85">
+                                        <input class="btn col s4 l1 push-s4 push-l5 payCoin no-border" type="submit" value="pay">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+      </main>
+      <div class="live-editor">
+          <div id="editor-support-out" class="sidenav sidenav-editor-window editor-section black right-aligned">
+              <div class="row no-margin doubt-header">
+                  <div class="col l1 s3 m3 row no-margin no-padding ">
+                      <a href="https://classroom.pepcoding.com/index" class="brand-logo">
+                          <img class="logo" src="./PepCoding __files/logo.png" alt="logo">
+                      </a>
+                  </div>
+                  <div class="col l2 s2 m2 no-padding " title="Save" style="display: inline-flex;">
+                      <div id="liveEditorId"></div>&nbsp;
+                  </div>
+      
+      
+                  <div class="col l6 s6 m6 no-padding">
+      
+                      <div class="selectLang d-flex editorOptions  ">
+                          <div class="item">
+                            <select id="liveEditor_lang_select" class="code-lang-select text-upper" title="Select Language"></select>
+                          </div>
+                          <div class="item settings">
+                            <i class="fa fa-gear  modal-trigger" href="#liveEditor_modalSetting"></i>
+                           
+                            <i id="liveEditor_format_code" class="fa fa-format  format-code" aria-hidden="true" title="Format your code">{ } </i>
+                            <i id="liveEditor_reset_code" class="fa fa-refresh  code-refresh" aria-hidden="true" title="Reset your code"></i>
+                            <i id="liveEditor_full_screen" class="fa fa-arrows-alt code-fullscreen" aria-hidden="true" title="FullScreen"></i>
+                          </div>
+                          <div class="item">
+                            <div class="">
+                              <i id="liveEditor_compile_code" class="fa fa-play code-run btn-compile" title="Run"></i>
+                              Run
+                            </div>
+                          </div>
+                          
+                          
+                          <div id="liveEditor_modalSetting" class="modal small" style="z-index: 1003;">
+                            <div class="modal-content">
+                              <h4 class="row col l12 s12 center">
+                                Editor Settings
+                              </h4>
+                              <div class="row">
+                                <h4 class="col l6">
+                                  Font Size
+                                </h4>
+                                <select id="liveEditor_font_select" title="Select Editor Font Size" class="code-font-select col l6"></select>
+                              </div>
+                              <div class="row">
+                                <h4 class="col l6">
+                                  Key Binding
+                                </h4>
+                                <select id="liveEditor_key_binding" title="Select Editor Key Binding" class="key-binding col l6"></select>
+                              </div>
+                              <div class="divider"></div>
+                              <div class="row">
+                                <h4 class="col l12 center">
+                                  Keyboard Shortcut
+                                </h4>
+                              </div>
+                              <ul class="collection">
+                                <li class="collection-item list-item">
+                                  <span class="col l6 s6">
+                                    fold
+                                  </span>
+                                  <span class="col l6 s6">
+                                    Alt-L|Ctrl-F1
+                                  </span>
+                                </li>
+                                <li class="collection-item list-item">
+                                  <span class="col l6 s6">
+                                    unfold
+                                  </span>
+                                  <span class="col l6 s6">
+                                    Alt-Shift-L|Ctrl-Shift-F1
+                                  </span>
+                                </li>
+                                <li class="collection-item list-item">
+                                  <span class="col l6 s6">
+                                    Gotoend
+                                  </span>
+                                  <span class="col l6 s6">
+                                    Ctrl-End
+                                  </span>
+                                </li>
+                                <li class="collection-item list-item">
+                                  <span class="col l6 s6">
+                                    Gotostart
+                                  </span>
+                                  <span class="col l6 s6">
+                                    Ctrl-Home
+                                  </span>
+                                </li>
+                                <li class="collection-item list-item">
+                                  <span class="col l6 s6">
+                                    Movelinesup
+                                  </span>
+                                  <span class="col l6 s6">
+                                    Alt-Up
+                                  </span>
+                                </li>
+                                <li class="collection-item list-item">
+                                  <span class="col l6 s6">
+                                    Movelinesdown
+                                  </span>
+                                  <span class="col l6 s6">
+                                    Alt-Down
+                                  </span>
+                                </li>
+                                <li class="collection-item list-item">
+                                  <span class="col l6 s6">
+                                    Undo
+                                  </span>
+                                  <span class="col l6 s6">
+                                    Ctrl-Z
+                                  </span>
+                                </li>
+                                <li class="collection-item list-item">
+                                  <span class="col l6 s6">
+                                    Redo
+                                  </span>
+                                  <span class="col l6 s6">
+                                    Ctrl-Shift-Z|Ctrl-Y
+                                  </span>
+                                </li>
+                                <li class="collection-item list-item">
+                                  <span class="col l6 s6">
+                                    Replace
+                                  </span>
+                                  <span class="col l6 s6">
+                                    Ctrl-H
+                                  </span>
+                                </li>
+                                <li class="collection-item list-item">
+                                  <span class="col l6 s6">
+                                    Togglecomment
+                                  </span>
+                                  <span class="col l6 s6">
+                                    Ctrl-/
+                                  </span>
+                                </li>
+                                <li class="collection-item list-item">
+                                  <span class="col l6 s6">
+                                    ToggleBlockComment
+                                  </span>
+                                  <span class="col l6 s6">
+                                    Ctrl-Shift-/
+                                  </span>
+                                </li>
+                                <li class="collection-item list-item">
+                                  <span class="col l6 s6">
+                                    Removeline
+                                  </span>
+                                  <span class="col l6 s6">
+                                    Ctrl-D
+                                  </span>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>                </div>
+                  </div>
+                  <div class="col l1 s1 m1 right" title="Close Editor">
+                      <a class="sidenav-close right " href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/85#">
+                          <i class="fa fa-times fa-2x " aria-hidden="true"></i>
+                      </a>
+                  </div>
+      
+              </div>
+              <div id="liveCodeContainer" class="card-content row code-container">
+                  <div id="liveEditor" class="col l12 s12 m12 editor "></div>
+      
+      
+                  <div class="col l12 m12 s12 row  no-padding">
+                      <div class="col l12 no-margin no-padding  editor-footer no-padding ">
+                          <ul id="liveEditor_collapsible" class="collapsible no-margin colap-code  ">
+                              <li class="no-margin">
+                                  <div class="collapsible-header  row no-margin console">
+                                      <div class="col l10 s10">
+                      
+                                          <span>&nbsp; &nbsp; <i class="fa fa-caret-up  downArrowToRotate"></i>
+                                              <span class="hide-on-med-and-down">
+                      
+                                              </span> Console
+                                          </span>
+                                          <span>
+                                              <i class="fa  fa-clock-o"></i>
+                                              <span id="liveEditor_compile_time" class="hide-on-med-and-down"> Time</span>
+                                          </span>
+                                          <span>
+                                              <i class="fa fa-microchip"></i><span class="hide-on-med-and-down" id="liveEditor_compile_memory">
+                                                  Memory</span>
+                                          </span>
+                                          <span id="liveEditor_compile_status" class="op-heading">
+                                              <i class="fa fa-check-circle"></i>
+                      
+                                              <span id="liveEditor_message" class="hide-on-med-and-down">Status</span>
+                                      </span></div>
+                      
+                                      <div class="col l2">
+                      
+                                      </div>
+                                  </div>
+                                  <div class="collapsible-body" style="padding: 0px 10px;">
+                      
+                      
+                                      <div class="row  " style="margin-bottom:2px">
+                                          <div class="col s12">
+                                              <ul id="liveEditor_tab" class="tabs  output-tabs">
+                                                  <li id="liveEditor_tab_output" class="tab col s3 active">
+                                                      <a class="active bolder" href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/85#liveEditor_output_box">output</a>
+                                                  </li>
+                                                  <li id="liveEditor_tab_input" class="tab col s3"><a class="bolder" id="hello" href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/85#liveEditor_input_box">input</a>
+                                                  </li>
+                                              </ul>
+                                          </div>
+                                          <div id="liveEditor_output_box" class="col s12" style="height: 20vh">
+                                              <pre id="liveEditor_compile_actual_output" placeholder="Add your own input here , else programe will run against default test case" class="output no-margin " style="height:100%;overflow-y:scroll" rows="6" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></pre>
+                      
+                                              <div id="liveEditor_submit_actual_output">
+                                              </div>
+                                          </div>
+                                          <div id="liveEditor_input_box" class="col s12" style="height: 100%;line-height: 1rem;width: 98%;">
+                                              <textarea class="customArea no-margin" id="liveEditor_customInput" style="border:none;height: 100% " placeholder="Add your own input here , else programe will run against default test case" rows="6" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"></textarea>
+                                          </div>
+                                      </div>
+                      
+                                  </div>
+                              </li>
+                      
+                          </ul>
+                          <input type="hidden" value="true" id="liveEditor_compileOnly">
+                      </div>
+                  </div>
+      
+                  <div id="slide-out-editorslist" style="transform: translateX(105%);width:36vw;top: 0;height: 90%;overflow:auto;" class="sidenav right white no-margin hide">
+      
+                      <table>
+                          <thead>
+                              <tr>
+                                  <th>Id</th>
+                                  <th>Name</th>
+                                  <th>
+                                      <a href="https://classroom.pepcoding.com/data-structures-and-algorithms-pitampura-dec-10-2020/80/classvideos/85#" class="sidenav-close">
+                                          <i class="fa fa-times vertical-text-middle" aria-hidden="true"></i>
+                                      </a>
+                                  </th>
+                              </tr>
+                          </thead>
+                          <tbody id="liveEditorNotesList" class="black-text">
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
+      </div>      <script src="./PepCoding __files/jquery.min.js.download"></script>
+      <script src="./PepCoding __files/materialize.min.js.download"></script>
+      <script type="text/javascript" src="./PepCoding __files/ace.js.download"></script>
+      <script src="./PepCoding __files/beautify.min.js.download"></script>
+      <script type="text/javascript" src="./PepCoding __files/common.js.download"></script>
+      <script type="text/javascript" src="./PepCoding __files/base.js.download"></script>
+      <script type="text/javascript" src="./PepCoding __files/codeEditorWrapper.js.download"></script>
+      <script type="text/javascript" src="./PepCoding __files/liveEditor.js.download"></script>
+   
+   <input type="hidden" name="courseId" value="80">
+   <input type="hidden" name="lectureId" value="">
+   <input type="hidden" name="resourceId" value="">
+   <div id="sidenavOerlay" onclick="openCloseSideNav();" class="sidenav-overlay"></div>
+   <!--Start of Tawk.to Script-->
+   <script type="text/javascript">
+        var twakTo = (function () {
+            Tawk_API.maximize();
+         Tawk_API.showWidget()
+      });
+
+      
+      document.addEventListener("DOMContentLoaded", function (event) {      
+        $('.payCoin').attr('disabled', false);      
+        $('.payCoin').on('click', function () {
+          $('#payCoinForm').submit();      
+          $(this).attr('disabled', true);
+        });
+       
+         
+        if (window.history.replaceState) {
+          window.history.replaceState(null, null, window.location.href);
+        }
+      
+        $('.collapsible').collapsible({ inDuration: 100, outDuration: 100 }); 
+        $('.sidenav').sidenav({ edge: 'left' });
+        $('.sidenav-doubts-list').sidenav({ edge: 'right', });
+        $('.sidenav-doubt-window').sidenav({ edge: 'right', onOpenStart: window.PEP.InitLiveDoubts, onCloseStart: window.PEP.onDoubtWindowClosed });
+        $('.sidenav-editor-window').sidenav({ edge: 'right', onOpenStart: window.PEP.InitlizeLiveEditor });
+        $('.sidenav-notes-window').sidenav({ edge: 'right', onOpenStart: window.PEP.InitlizeLiveNotes });
+        $('.slide-out-admin-chat').sidenav({ edge: 'right', onOpenStart: window.PEP.openDoubtWindow, onCloseStart: window.PEP.closeDoubtWindow });
+        var modals = document.querySelectorAll('.modal')
+        for (var i = 0; i < modals.length; i++) {
+          M.Modal.init(modals[i]);
+        }
+      
+      });
+      
+      function siteThemeSelect(theme){         
+            PEP.createCookie('theme', theme,365, true);
+            document.body.classList.remove('theme1');      
+            document.body.classList.remove('theme2'); 
+            document.body.classList.remove('theme3');
+            document.body.classList.remove('theme4');
+            document.body.classList.add(theme);
+            saveUserPreferences(theme);
+      }
+       
+      
+      window.addEventListener("pageshow", function (event) {
+        var historyTraversal = event.persisted ||
+          (typeof window.performance != "undefined" &&
+            window.performance.navigation.type === 2);
+        if (historyTraversal) {
+          // Handle page restore.
+          window.location.reload();
+        }
+      });
+   </script>
+   <script type="text/javascript">
+      var key = $('#tawkKey').val();
+      
+      if (key && key.length > 0) {
+        var Tawk_API = {
+          onLoad: function () {
+      
+            //if ($('#isShowDoubtSupport').val() == 'true') {
+            Tawk_API.hideWidget()
+            Tawk_API.minimize();
+            // }
+          },
+        };
+        var Tawk_LoadStart = new Date();
+        (function () {
+          var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+          s1.async = true;
+          s1.src = 'https://embed.tawk.to/' + key + '/default';
+          s1.charset = 'UTF-8';
+          s1.setAttribute('crossorigin', '*');
+          s0.parentNode.insertBefore(s1, s0);
+        })();
+      }
+      
+      
+   </script>
+   <!-- Start Alexa Certify Javascript -->
+   <script type="text/javascript">
+      _atrk_opts = { atrk_acct: "pU35u1SZw320l9", domain: "pepcoding.com", dynamic: true };
+      (function () { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(as, s); })();
+   </script>
+   <noscript><img src="https://certify.alexametrics.com/atrk.gif?account=pU35u1SZw320l9" style="display:none" height="1"
+      width="1" alt="" /></noscript>
+   <!-- End Alexa Certify Javascript -->
+   <!--End of Tawk.to Script-->
+   <script type="text/javascript" src="./PepCoding __files/classVideoPlayer.js.download"></script>
+
+<link href="./PepCoding __files/video-js.css" rel="stylesheet"> 
+    <script src="./PepCoding __files/video.js.download"></script> 
+  <script type="text/javascript">
+$(function(){ 
+  var $refreshButton = $('#refresh');
+  var $results = $('#css_result');
+  
+  function refresh(){
+    var css = $('style.cp-pen-styles').text();
+    $results.html(css);
+  }
+
+  refresh();
+  $refreshButton.click(refresh);
+  
+  // Select all the contents when clicked
+  $results.click(function(){
+    $(this).select();
+  });
+});
+</script>
+
+   <style>
+      
+   </style>
+<div class="sidenav-overlay" style="display: none;"></div><div class="drag-target"></div><div class="sidenav-overlay"></div><div class="drag-target"></div><div class="sidenav-overlay"></div><div class="drag-target right-aligned"></div><script async="" charset="UTF-8" src="./PepCoding __files/en.js.download"></script><div id="hkingauls8i1f7c0td3c" style="display: none !important;"><iframe src="./PepCoding __files/saved_resource.html" frameborder="0" scrolling="no" width="64px" height="60px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:16px !important; bottom:20px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:60px !important; min-width:64px !important; max-height:60px !important; max-width:64px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:64px !important; height:60px !important; display:block !important; z-index:1000001 !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:unset !important; pointer-events:auto !important;" id="pgg4df372c781f7c0td5j" class="" title="chat widget"></iframe><iframe src="./PepCoding __files/saved_resource(1).html" frameborder="0" scrolling="no" width="280px" height="330px" style="outline:none !important; visibility:visible !important; resize:none !important; box-shadow:none !important; overflow:visible !important; background:none !important; opacity:1 !important; filter:alpha(opacity=100) !important; -ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity 1}) !important; -mz-opacity:1 !important; -khtml-opacity:1 !important; top:auto !important; right:10px !important; bottom:90px !important; left:auto !important; position:fixed !important; border:0 !important; min-height:330px !important; min-width:280px !important; max-height:330px !important; max-width:280px !important; padding:0 !important; margin:0 !important; -moz-transition-property:none !important; -webkit-transition-property:none !important; -o-transition-property:none !important; transition-property:none !important; transform:none !important; -webkit-transform:none !important; -ms-transform:none !important; width:280px !important; height:330px !important; display:none !important; z-index:auto !important; background-color:transparent !important; cursor:none !important; float:none !important; border-radius:5px !important; pointer-events:auto !important;" id="x415f940cu71f7c0td6v" class="" title="chat widget"></iframe><div id="message-preview"></div><div id="chat-bubble"></div></div></body></html>
